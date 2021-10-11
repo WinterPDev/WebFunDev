@@ -1,44 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Registration Form</h1>
     <form>
         <div>
             <label for="First_Name">First Name*:</label>
             <input type="text" name="First_Name" id="First_Name">
-        </div>    
-        <br>
+        </div>
         <div>
             <label for="Last_Name">Last Name*:</label>
             <input type="text" name="Last_Name" id="Last_Name">
-        </div>    
-        <br>
+        </div>
         <div>
             <label for="email_address">Email Address*:</label>
             <input type="text" name="email_address" id="email_address">
-        </div>    
-        <br>
+        </div>
         <div>
             <label for="password">Password*:</label>
             <input type="password" name="password" id="password">
-        </div>    
-        <br>
+        </div>
         <div>
             <label for="confirm_password">Confirm Password*:</label>
             <input type="password" name="confirm_password" id="confirm_password">
-        </div>    
-        <br>
+        </div>
         <div>
             <label for="birthdate">Birthday*:</label>
             <input type="date" name="birthdate" id="birthdate">
-        </div> 
-        <br>   
+        </div>
         <div>
             <p>Gender Identity:</p>
             <input type="radio" name="genderidentity" id="Male" value="Male">
@@ -49,14 +45,14 @@
             <label for="Non_Binary">Non-Binary</label>
             <input type="radio" name="genderidentity" id="No_Answer" value="No_Answer">
             <label for="No_Answer">I prefer not to answer</label>
-        </div>    
-        <div>
-            <p>A short description about myself:</p>
-                <textarea>
-                </textarea>
         </div>
         <div>
-            <p>Favorite Language: 
+            <p>A short description about myself:</p>
+            <textarea>
+                    </textarea>
+        </div>
+        <div>
+            <p>Favorite Language:
                 <select name="fav_language" id="fav_language">
                     <option value="HTML"> HTML </option>
                     <option value="JavaScript"> JavaScript </option>
@@ -69,12 +65,12 @@
             <input type="checkbox" id="subscribe_email">
             <label for="subscribe_email">Yes, I would like to receive periodic email updates</label>
         </div>
-
         <div>
-            <br>
-            <input type="submit" value="Create Account">
+            <p>
+                <input type="submit" value="Create Account">
             <p><em>*Indicates a Required Field</em></p>
         </div>
     </form>
 </body>
+
 </html>
