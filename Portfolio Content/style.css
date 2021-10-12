@@ -1,0 +1,72 @@
+.p_img {
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    background-image: linear-gradient(teal,darkslategray);
+    font-family: 'Hammersmith One', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    text-decoration: underline;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-color: darkslategray;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table th {
+    border: 1px solid black;
+    padding-inline: 3px;
+    background-color: black;
+    color: lightgray;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+a:link {
+    color: lightgray;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
