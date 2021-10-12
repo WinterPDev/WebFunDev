@@ -1,0 +1,32 @@
+h1 {
+    background-color: #000000;
+    color: aqua;
+    padding-left: 10px;
+    font-size: 80px;
+    line-height: 1;
+    margin: 0;
+}
+
+/* This or should it just be ".colorsplit" */
+h1 .colorsplit {
+    color: white;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    background-color: powderblue;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
