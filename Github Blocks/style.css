@@ -1,0 +1,44 @@
+body {
+    background-color: teal;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1.footer {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 5px;
+    width: 800px;
+}
+
+#row1 {
+    background-color: powderblue;
+}
+
+#row2 {
+    background-color: pink;
+}
+
+#row3 {
+    background-color: white;
+}
+
+img.octocat {
+    height: 200px;
+    border: solid black 2px;
+}
