@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+#searchbutton {
+    width: 200px;
+    background-color: lightgray;
+    border: 1px solid teal;
+    color: teal;
+    border-radius: 50px 50px;
+    margin: left;
+    line-height: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background-color: teal;
+    color: white;
+    border-radius: 50%;
+    margin: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#createbutton {
+    width: 225px;
+    line-height: 40px;
+    background-color: cornflowerblue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 150%;
+    box-shadow: black 10px 5px 5px;
+    border: solid black 2px;
+}
+
