@@ -1,0 +1,34 @@
+
+// /* PSEUDOCODE ! !
+
+
+
+
+// */
+
+// //
+
+// var countPositives = 0;
+// var numbers = [3, 4, -2, 7, 16, -8, 0];
+    
+// // your code here!
+    
+// console.log("there are " + countPositives + " positive values");
+
+var zeroplus = +0
+var zero = 0
+var zerominus = -0
+
+// console.log(Math.sign(zeroplus))
+// console.log(Math.sign(zero))
+// console.log(Math.sign(zerominus))
+
+Math.sign(8);
+Math.sign(-0);
+
+
+var person = "US"
+
+if(person == "UK") {
+console.log("Colour")
+} else console.log("Color");

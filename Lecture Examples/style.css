@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+h1 {
+    color: green;
+}
+
+.parent {
+    display: flex;
+    /* horizontal */
+    justify-content: space-around;
+    /* vertical */
+    align-items: center;
+    gap: 20px;
+    background-color:burlywood;
+    min-height: 400px;
+}
+
+.child {
+    background-color: aqua;
+    width: 200px;
+    min-height: 200px;
+}
+
