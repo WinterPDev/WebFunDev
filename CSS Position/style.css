@@ -1,0 +1,74 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1 {
+    color: green
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.black-bg {
+    background-color: black;
+    width: 600px;
+    min-height: 150px;
+    /* shortcut for center. margin: vertical, horizontal */
+    margin: 0 auto;
+}
+
+.square {
+    width: 50px;
+    min-height: 50px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.static {
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    /* Abusing the position property */
+    top: 20px;
+    left: 20px;
+}
+
+.relative-parent {
+    position: relative;
+}
+
+/* position absolute is widely used with ::before and the ::after pseudoclasses. Watch Kevin Powell */
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+}
+
+/* Useful for bars to stay on screen regardless of scrolling. */
+
+.sticky {
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+
+.large-bottom {
+    margin-bottom: 100vh;
+    margin-left: 100vw;
+}

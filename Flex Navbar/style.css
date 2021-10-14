@@ -31,6 +31,6 @@ ul, a {
     font-size: inherit;
     background-color: teal;
     color: white;
-    border: none;
+    border: solid black 2px;
     box-shadow: 5px 5px black;
 }
