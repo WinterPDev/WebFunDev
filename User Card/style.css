@@ -1,49 +1,76 @@
-/* Only absolute positiont the circle */
 * {
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
     font-weight: bold;
 }
-.parent {
-    position: relative;
-    display: float;
+
+.container{
+    display: flex;
     margin: 0 auto;
-    min-height: 100px;
-    width: 700px;
-    top: 50px;
-    background-color: red;
-    border: solid gray 2px;
+    justify-content: space-between;
+    width: 900px;
+    margin-top: 50px;
+}
+
+.userblock {
+    width: 100%;
+    border: solid 2px darkslategrey;
 }
 
 .topbox {
-    height: 100px;
+    background-color: CadetBlue;
     width: 100%;
-    background-color: lightseagreen;
+    height: 150px;
+}
+
+img.userprofilepic {
+    height: 150px;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 40px;
 }
 
 .bottombox {
-    padding: 20px;
-    height: 100px;
+    background-color: MintCream;
     width: 100%;
-    background-color: whitesmoke;
+    height: 275px;
 }
 
-img.profile {
-    position: absolute;
-    top: 50px;
-    left: 25px;
-    width: 90px;
+img.mapicon{
+    width: 20px;
+    padding-right: 15px;
 }
 
-.content {
-    padding: 25x;
+.name{
+    margin-top:80px;
+    padding-left: 30px;
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
-.locationrow {
-    display: flex;
-    justify-content: flex-start;
-    align-items: left;
+.location{
+    padding-left: 30px;
+    margin-left: 20px;
+    font-size: 30px;
 }
 
-img.mappin {
-    height: 25px;;
+.profiledesc{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.edit{
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.gear {
+    width: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
 }
