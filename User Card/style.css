@@ -1,0 +1,49 @@
+/* Only absolute positiont the circle */
+* {
+    padding: 0px;
+    font-weight: bold;
+}
+.parent {
+    position: relative;
+    display: float;
+    margin: 0 auto;
+    min-height: 100px;
+    width: 700px;
+    top: 50px;
+    background-color: red;
+    border: solid gray 2px;
+}
+
+.topbox {
+    height: 100px;
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+.bottombox {
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+img.profile {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    width: 90px;
+}
+
+.content {
+    padding: 25x;
+}
+
+.locationrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+img.mappin {
+    height: 25px;;
+}
