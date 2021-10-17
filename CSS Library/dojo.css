@@ -1,7 +1,15 @@
+/* CSS reset */
 * {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: lavender;
 }
 
 .nav {
@@ -35,4 +43,23 @@ ul, a {
     color: white;
     border: solid black 2px;
     box-shadow: 5px 5px black;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
 }
