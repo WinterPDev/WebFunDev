@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: sienna;
+}
+
+.left_text{
+    font-size: 2em;
+}
+
+.navlinks{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+

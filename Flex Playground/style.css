@@ -1,0 +1,7 @@
+.fixed { width: 250px; 
+    background-color: blue;
+}
+
+.flexy { flex: 1;
+    background-color: aqua;
+}

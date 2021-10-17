@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .nav {
@@ -33,4 +35,65 @@ ul, a {
     color: white;
     border: solid black 2px;
     box-shadow: 5px 5px black;
+}
+
+
+.mastercolumn{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.col1 {
+    background-color: slateblue;
+    width: 500px;
+}
+
+.usercard{
+    background-color: springgreen;
+    height: 400px;
+    margin: 10px;
+    border: 2px #AAAAAA solid;
+}
+
+.usercard_top{
+    background-color: darkorchid;
+    height: 200px;
+}
+
+.educationcard{
+    background-color: tomato;
+    height: 300px;
+    margin: 10px;;
+    border: 2px #AAAAAA solid;
+}
+
+.topper{
+    background-color: #3D3d3d;
+    height: 50px;
+    border: 2px #AAAAAA solid;
+}
+
+.userblock{
+    background-color: darkred;
+    height: 100px;
+    margin: 20px;
+}
+
+
+.col2 {
+    background-color: yellow;
+    width: 500px;
+}
+
+.requests{
+    background-color: teal;
+    height: 400px;
+    margin: 10px;
+}
+
+.connections_list{
+    background-color: darkgoldenrod;
+    height: 400px;
+    margin: 10px;
 }

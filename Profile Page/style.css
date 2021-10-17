@@ -60,7 +60,6 @@ ul a {
     justify-content: center;
 }
 
-
 /* -------------------------------------------- */
 
 .topper {
@@ -211,7 +210,6 @@ ul a {
 }
 
 
-
 .request_block{
     background-color: seashell;
     margin-top: 10px;
@@ -230,7 +228,6 @@ ul a {
 .acceptdeny_block{
     width: 20%;
     background-color: seashell;
-    
 }
 
 img.profilethumbnail{
