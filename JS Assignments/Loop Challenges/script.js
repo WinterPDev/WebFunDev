@@ -29,21 +29,9 @@ console.log("Completed Find Multiples of 3!");
 console.log("Starting Print Sequence. . .")
 
 function printsequence(){
-    for(var i = 4; i > -4; i-=0.5) {
-        if(i == 4) {
-            console.log(i);
-        } else if(i == 2.5) {
-            console.log(i);
-        } else if(i == 1) {
-            console.log(i);
-        } else if(i == -0.5) {
-            console.log(i);
-        } else if(i == -2) {
-            console.log(i);
-        } else if(i == -3.5) {
+    for(var i = 4; i > -4; i-=1.5) {
             console.log(i);
         }
-    }
 };
 
 printsequence();
