@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Dojonary</title>
 </head>
@@ -20,20 +19,37 @@
     <div class="container">
         <div class="row">
             <div class="col1">
-                <div class="ninjablock1">Ninja Block 1
-                    <div class="ninjablock1_right">
-                        <button class="btn2" onclick="alert('Ninja was liked')">13 Likes</button>
+                <div class="ninjablock">
+                    <div class="ninjablock left">
+                        <p class="def_name">ninja</p>
+                        <p class="def_type"><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn2 orange" onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="ninjablock right definitiontxt">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
                     </div>
                 </div>
-                <div class="ninjablock1">Ninja Block 1</div>
+                <div class="ninjablock">
+                    <div class="ninjablock left">
+                        <p class="def_name">ninja</p>
+                        <p class="def_type"><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn2 orange" onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="ninjablock right definitiontxt">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
             </div>
             <div class="col2">
-                <div class="ninjablock2">
-                    <h1 class="col2text">Dojonary is defined by YOU</h1>
-                    <button class="btn2 add_def" onclick="hide(this)">Add Definition</button>
+                <div class="ninjablock left full">
+                    <p><h1 class="col2text">Dojonary is defined by YOU</h1></p>
+                    <button class="btn2 add_def green" onclick="hide(this)">Add Definition</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
