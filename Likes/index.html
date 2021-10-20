@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex Demo</title>
+</head>
+
+<body>
+    <div class="headerfeed">
+        <h1 class="pagetitle">Network</h1>
+    </div>
+    <div class="pagefeedtitle">
+        <p>Your Feed</p>
+    </div>
+    <div class="container">
+        <div class="col1">
+            <div class="profilecard">
+                <img class="profileimg" alt="User_Image" src="./images/user-circle.png">
+                <p class="profileupload"><a href="#">Add an avatar</a></p>
+                <p>James Doe</p>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="box">
+                <div class="topbox">
+                    <p class="username">Neil M</p>
+                    <p class="likes"><span id="likecounter">9</span>Like(s)</p>
+                    <button class="likebttn" onclick="liketracker()">Like</button>
+                </div>
+                <div class="bottombox">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="topbox">
+                    <p class="username">Nichole K</p>
+                    <p class="likes"><span id="likecounter2">12</span>Like(s)</p>
+                    <button class="likebttn" onclick="liketracker2()">Like</button>
+                </div>
+                <div class="bottombox">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="topbox">
+                    <p class="username">Jim R</p>
+                    <p class="likes"><span id="likecounter3">9</span>Like(s)</p>
+                    <button class="likebttn" onclick="liketracker3()">Like</button>
+                </div>
+                <div class="bottombox">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex Columns Example</title>
+</head>
+<body>
+    <div class="nav">
+        <p>Flex Example</p>
+    </div>
+
+    <!-- The FlexContainer is applying the flex property one layer down to col1 and col2! 
+        It is also deciding the maximum width in css for the Flex columns to adjust to. I make 
+        this the same size as my navbar width to keep it tidy.-->
+    <div class="flexcontainer">
+
+        <!-- col1 is built using the flex: 2 element, so it's taking up a 
+            proportion of the flexcontainer automatically. -->
+        <div class="col1">
+            <p class="columntitle">Column 1!</p>
+            <!-- Now we insert the content blocks within the base column. Think of it as col1 is our table 
+                and these are the boxes we set on top of it to put things into. This is also when you want 
+                to start putting in your heights, etc. to size your columns dynamically by how much content is in them. -->
+            <div class="contentblock holder">
+                <p>Content Holder!</p>
+                <div class="contentblock">
+                    <p>Content Block!</p>
+                </div>
+                </div>
+        </div>
+        <!-- col2 is using a larger flex element (flex: 3) than col 1 to make it wider.
+        you can adjust flex to whichever column you want to be larger or the same. -->        
+        <div class="col2">
+            <p class="columntitle">Column 2!</p>
+            <div class="contentblock holder">
+                <p>Content Holder!</p>
+                <div class="contentblock">
+                    <p>Content Block!</p>
+                </div>
+                <div class="contentblock">
+                    <p>Content Block!</p>
+                </div>
+            </div>
+            <div class="contentblock">
+                <p>Content Block!</p>
+            </div>
+            <div class="contentblock">
+                <p>Content Block!</p>
+            </div>
+        </div>
+    </div>
+    <div class="flexcontainer">
+        <div class="contentblock full">
+            <p>Content Block!</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>

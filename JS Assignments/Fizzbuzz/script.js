@@ -13,3 +13,11 @@ function fizzbuzz(end){
 };
 
 fizzbuzz(100);
+
+// function fizz(){
+//     for(var m=1;m<101;m++);{
+//         if (m % 3 == 0) {
+//         console.log("fizz");
+//         }
+//     }
+// }

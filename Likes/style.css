@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #2c2c2c;;
+    color: white;
+}
+
+a {
+    color: #81a0ea;
+}
+
+.headerfeed{
+    background-color: #181818;
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.pagetitle{
+    flex: 1;
+    color: white;
+    font-size: 2.8em;
+    padding: 10px 40px;
+}
+
+.pagefeedtitle{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.col1, .col2{
+    flex: 2;
+}
+
+.col1{
+    flex: 1;
+    margin-right: 30px;
+}
+
+.profilecard{
+    background-color: #3D3D3D;
+    border: solid 3px black;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 1.5em;
+}
+
+.profileimg{
+    width: 40%;
+    padding-bottom: 30px;
+}
+
+.profileupload{
+    padding-bottom: 30px;
+}
+
+.box{
+    background-color: #3D3D3D;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 3px black;
+}
+
+.topbox{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.username{
+    flex: 1;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.likes{
+    flex: 0.3;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+button.likebttn{
+    border: solid 2px black;
+    background-color: #81a0ea;
+    font-size: 1.7em;
+    padding: 5px 12px;
+    margin: 0px 20px;
+    box-shadow: 3px 3px black;
+}
+
+#likecounter, #likecounter2, #likecounter3{
+    color: #81a0ea;
+    margin-right: 10px;
+}
+
+
+.bottombox{
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+
