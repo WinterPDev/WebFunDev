@@ -4,7 +4,6 @@ function login_change(element) {
 
 function decline(element) {
     element.remove();
-    document.querySelector("#notifications").innerHTML--
 }
 
 function accept(element){
